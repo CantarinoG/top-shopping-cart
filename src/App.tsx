@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
+import "./styles/rgb.css";
+
 function App() {
 
   return <ShoppingCartProvider>
