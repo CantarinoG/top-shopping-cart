@@ -2,41 +2,41 @@
     {"id": 1,
     "name": "Mouse RedDragon Snipe M801-RGB",
     "price": 49.99,
-    "imgUrl": "/imgs/mouse-reddragon-m801.jpg"
+    "imgUrl": "./imgs/mouse-reddragon-m801.jpg"
     },
     {"id": 2,
     "name": "Mousepad Razer Firefly V2 Chroma 355X280X8MM",
     "price": 180.90,
-    "imgUrl": "/imgs/mousepad-razer-fireflyv2.jpg"
+    "imgUrl": "./imgs/mousepad-razer-fireflyv2.jpg"
     },
     {"id": 3,
     "name": "Case K-Mex Jaeger 1, CG-01JT, Black",
     "price": 39.99,
-    "imgUrl": "/imgs/gabinete-kmex-jaeger1.jpg"
+    "imgUrl": "./imgs/gabinete-kmex-jaeger1.jpg"
     },
     {"id": 4,
     "name": "Power Supply Corsair CXF",
     "price": 100.99,
-    "imgUrl": "/imgs/fonte-corsair-cxf.jpg"
+    "imgUrl": "./imgs/fonte-corsair-cxf.jpg"
     },
     {"id": 5,
     "name": "Case Tower Cruiser Fortrek",
     "price": 59.99,
-    "imgUrl": "/imgs/gabinete-tower-cruiser-fortrek.jpg"},
+    "imgUrl": "./imgs/gabinete-tower-cruiser-fortrek.jpg"},
     {"id": 6,
     "name": "Illumination Corsair ICUELC100",
     "price": 140.00,
-    "imgUrl": "/imgs/iluminação-corsair-icuelc100.jpg"},
+    "imgUrl": "./imgs/iluminação-corsair-icuelc100.jpg"},
     {"id": 7,
     "name": "16GB RAM Corsair Vengeance",
     "price": 99.99,
-    "imgUrl": "/imgs/ram-corsair-vengeance.jpg"},
+    "imgUrl": "./imgs/ram-corsair-vengeance.jpg"},
     {"id": 8,
     "name": "Keyboard Pichau P432",
     "price": 20.00,
-    "imgUrl": "/imgs/teclado-pichau-p432.jpg"},
+    "imgUrl": "./imgs/teclado-pichau-p432.jpg"},
     {"id": 9,
     "name": "Cooler Fan Mancer Z200",
     "price": 29.99,
-    "imgUrl": "/imgs/ventoinha-mancer-z200.jpg"}
+    "imgUrl": "./imgs/ventoinha-mancer-z200.jpg"}
 ]
