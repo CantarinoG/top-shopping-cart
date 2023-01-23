@@ -13,8 +13,9 @@ type StoreItemProps = {
 function StoreItem({id, name, price, imgUrl}:StoreItemProps) {
     const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
     const quantity:number = getItemQuantity(id);
+
     return <>
-        <Card className="h-100 text-white" style={{backgroundColor: "black"}}>
+        <Card className="h-100 text-white" style={{backgroundColor: "black", boxShadow: `0 0 16px rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`}}>
             <Card.Img variant="top" src={imgUrl} height="400px" style={{objectFit: "cover"}} />
             <Card.Body className="d-flex flex-column">
                 <Card.Title className="d-flex justify-content-between align-items-baselina mb-4">
