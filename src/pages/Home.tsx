@@ -1,4 +1,5 @@
-import { Button } from "react-bootstrap";
+import { Button, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 function Home() {
 
@@ -10,7 +11,9 @@ function Home() {
             <span>PARTS</span>
             </p>
         <p className="text-white text-center h1">Raise Your <span className="text-shadow-lblue-sm">SPECS</span></p>
-        <Button variant="outline-light box-shadow-white" style={{width: "33%"}}><a className="h5" href="/store">See Catalog</a></Button>
+        <Nav>
+                <Nav.Link className="text-light" to="/store" as={NavLink}><Button variant="outline-light box-shadow-white">See Catalog</Button></Nav.Link>
+            </Nav>
     </div>
 
 }
